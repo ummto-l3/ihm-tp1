@@ -3,3 +3,40 @@ input {
     border-radius: .5em;
     margin: .5em;
 }
+
+h1{
+    color: whitesmoke
+}
+
+@media  (max-width: 600px) {
+    
+    h1{
+        background-color: red;
+        /* display: none; */
+    }
+}
+
+@media (min-width: 601px) {
+    h1{
+        background-color: blue;
+    }
+}
+/* @media (max-width: 480px){
+    p {
+        font-size: 0.6em
+    }
+} */
+
+/* p { 
+    word-break: break-all;
+    overflow-wrap: break-word;
+    hyphens: manual;
+    text-overflow: clip;
+    text-overflow: ellipsis;
+} */
+
+
+button {
+    color: chocolate;
+    border-radius: 10px;
+}
