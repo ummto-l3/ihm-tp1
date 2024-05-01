@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        @media only screen and (min-width: 1025px) {
+    h1 {
+        background-color: green;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+    h1 {
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 600px) { 
+    h1 {
+        background-color: red;
+    }
+}
+
+/* h1 
+{
+    display: none
+} */
+    </style>
+
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    
+    
+    
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>Example PHP</title>
+</head>
+<body>
+
+    <h1>Formulaire inscription</h1>
+    
+    <form action="nom.php" method="post">
+        <input type="number" name="id" placeholder="identifiant">
+        <input type="number" name="salle" placeholder="numéro de la salle">
+        <input type="datetime-local" name="heure" placeholder="date et heure">
+        <input type="text" name="enseignant" placeholder="nom de l'enseignant">
+        <button>Envoyer</button>
+    </form>
+
+
+    
+
+    <!-- <p>ceciestunlongmotmaisonvaessayerdeledecouperpoureviterledebordement</p> -->
+    
+
+
+    <!-- <img srcset="./static/img/medium.jpg 480w,
+        ./static/img/large.jpg 800w"
+        sizes="(max-width: 600px) 480px,
+            800px"
+        src="./static/img/small.jpg" alt="beau paysage !"> -->
+    
+    <!-- <img srcset="./static/img/small.jpg,
+    ./static/img/medium.jpg 1.5x,
+    ./static/img/large.jpg 2x"
+      src="./static/img/small.jpg"
+      alt="beau paysage"> -->
+    
+    <!-- <picture>
+        <source media="(max-width: 799px)" srcset="./static/img/large.jpg">
+        <source media="(min-width: 800px)" srcset="./static/img/medium.jpg">
+        <img src="./static/img/small.jpg" alt="beau paysage !">
+      </picture> -->
+
+    
+
+</body>
+</html>
